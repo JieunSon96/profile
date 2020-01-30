@@ -23,7 +23,7 @@ echo "mail.php2";
    $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
    $mail->SMTPAuth = true;                               // Enable SMTP authentication
    $mail->Username = "plmn855000@gmail.com";                 // SMTP username
-   $mail->Password = 'tpfk2407917!';                           // SMTP password
+   $mail->Password = '';                           // SMTP password
    $mail->Port = 465;//587;                                    // TCP port to connect to
    $mail->SMTPSecure = "ssl"; //'tls';                         // Enable TLS encryption, `ssl` also accepted
    $mail->CharSet = "utf-8";
