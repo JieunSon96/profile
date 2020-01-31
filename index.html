@@ -775,7 +775,16 @@ Catswords Hycon Edition primary goal is to legally protect security analysts.
 															"message":$('#message').val()
 
 														},	success:function(data){
-															console.log(data);
+															var response=data.split(':"')[1].split('"')[0];
+															if(response==="success"){
+																alert("Thank you for sending an email! I will contact you soon.");
+																$('#name').val("");
+																$('#email').val("");
+																$('#subject').val("");
+																$('#message').val("");
+															}else{
+																alert("Sorry for the inconvenience.");
+															}
 														}
 
 												})
