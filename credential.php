@@ -1,4 +1,4 @@
 <?php
-$gmail_id="plmn855000@gmail.com";
-$gmail_pw="tpfk2407917!";
+$gmail_id="*";
+$gmail_pw="*";
 ?>
