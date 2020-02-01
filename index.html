@@ -106,7 +106,7 @@
 
 
 	<!-- Start about Area -->
-	<section class="about-area section-gap" id="about">
+		<section class="about-area section-gap" id="about">
 		<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="menu-content pb-70 col-lg-8">
@@ -186,6 +186,10 @@
 		</div>
 	</section>
 	<!-- End about Area -->
+	<a class="top-link hide" href="" id="js-top" style="display:none;">
+		<img id="pageUpImg" src="img/pageup.png" alt="page up"></svg>
+	</a>
+
 	<!-- Start service Area -->
 	<section class="service-area section-gap" id="skills">
 		<div class="container">
@@ -750,7 +754,7 @@
 						<h6>About Me</h6>
 						<p>
 							Thank you for visiting Developer Jieun Son Website!
-						<input id="email" name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'"
+
 						</p>
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 						<p class="footer-text">Copyright &copy;<script>
@@ -819,11 +823,44 @@
 	<script src="js/main.js"></script>
 
 	<script type="text/javascript">
-
+  //loading function
 	$(window).load(function() {
 			// Animate loader off screen
-			$(".se-pre-con").fadeOut("slow");;
+			$(".se-pre-con").fadeOut("slow");
 		});
+
+ //pageUp scrollFunction
+ // Set a variable for our button element.
+ const scrollToTopButton = document.getElementById('js-top');
+
+	function scrollFunction() {
+		if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+			scrollToTopButton.style.display = "block";
+		} else {
+			scrollToTopButton.style.display = "none";
+		}
+	}
+	window.onscroll = function() {scrollFunction()};
+
+const scrollToTop = () => {
+  // Let's set a variable for the number of pixels we are from the top of the document.
+  const c = document.documentElement.scrollTop || document.body.scrollTop;
+  // If that number is greater than 0, we'll scroll back to 0, or the top of the document.
+  // We'll also animate that scroll with requestAnimationFrame:
+  // https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
+  if (c > 0) {
+    window.requestAnimationFrame(scrollToTop);
+    // ScrollTo takes an x and a y coordinate.
+    // Increase the '10' value to get a smoother/slower scroll!
+    window.scrollTo(0, c - c / 10);
+  }
+};
+
+// When the button is clicked, run our ScrolltoTop function above!
+scrollToTopButton.onclick = function(e) {
+  e.preventDefault();
+  scrollToTop();
+}
 
 		$('#sendMsgBt').click(function() {
 			//alert("이름 : "+$('#name').val()+" 이멜: "+$('#email').val()+" 주제: "+$('#subject').val()+" 내용 : "+$('#message').val())
