@@ -2,7 +2,51 @@
   position:relative;
   top:18px;left:2px;
 }
-.frontEndIcons{
-  width:73px;
-  margin-left:19px;
+.boxwrap{
+  display: table;
+   width: 100%;
 }
+.boxwrap2{
+  display: table;
+   width: 50%;
+   position: relative;
+   left:120px;
+}
+
+.boxwrap .box{
+  display: table-cell; /* 핵심! */
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px;
+}
+
+.boxwrap2 .box2{
+  display: table-cell; /* 핵심! */
+  vertical-align: middle;
+  text-align: center;
+  padding:10px;
+}
+
+.frontEndIcons{
+  width:80px;  height:75px;
+}
+
+.backEndIcons{
+  width:80px;  height:75px;
+}
+
+.databaseIcons{
+    width:80px;  height:75px;
+}
+
+.cloudIcons{
+  width:80px;  height:75px;
+}
+.versionControlIcons{
+    width:80px;  height:75px;
+}
+/* #html,#css,#js,#jsp,#react{
+  width:90px;
+  height:85px;
+
+} */
