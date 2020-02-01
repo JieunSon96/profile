@@ -1,7 +1,10 @@
 ﻿<html lang="zxx" class="no-js">
 
 <head>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+	<!-- for loading -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
@@ -30,10 +33,15 @@
 	<link rel="stylesheet" href="css/profile.css?after">
 
 
-
 </head>
 
 <body>
+<!--loading bar -->
+<!-- <img style="margin:150px 0px 0px -200px;position:absolute;top:25%;left:59%;padding:5px;" src="img/loading/Preloader_3.gif" alt=""> -->
+<div class="se-pre-con"><img id="loadingIcon" src="img/loading/Preloader_3.gif" alt="">	</div>
+
+<!-- <span class="loader"><span class="loader-inner"></span></span> -->
+
 	<!-- start banner Area -->
 	<section class="banner-area" id="home">
 		<!-- Start Header Area -->
@@ -715,7 +723,7 @@
 						<input id="name" name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
 
 						<input id="email" name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'"
-							class="common-input mb-20 form-control" required="" type="email">
+								class="common-input mb-20 form-control" required="" type="email">
 
 						<input id="subject" name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required="" type="text">
 					</div>
@@ -742,6 +750,7 @@
 						<h6>About Me</h6>
 						<p>
 							Thank you for visiting Developer Jieun Son Website!
+						<input id="email" name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'"
 						</p>
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 						<p class="footer-text">Copyright &copy;<script>
@@ -810,6 +819,12 @@
 	<script src="js/main.js"></script>
 
 	<script type="text/javascript">
+
+	$(window).load(function() {
+			// Animate loader off screen
+			$(".se-pre-con").fadeOut("slow");;
+		});
+
 		$('#sendMsgBt').click(function() {
 			//alert("이름 : "+$('#name').val()+" 이멜: "+$('#email').val()+" 주제: "+$('#subject').val()+" 내용 : "+$('#message').val())
 			$.ajax({

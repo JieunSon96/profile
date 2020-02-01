@@ -1,3 +1,22 @@
+/* loding bar style */
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(http://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+}
+
+#loadingIcon{
+position: absolute; /* */
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+/* width: 48%;
+height: 59%; */
+}
 .socialMediaIcons{
   position:relative;
   top:18px;left:2px;
