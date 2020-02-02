@@ -4,7 +4,7 @@
 	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
 	<!-- for loading -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
@@ -31,16 +31,17 @@
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/profile.css?after">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 
 </head>
 
 <body>
-<!--loading bar -->
-<!-- <img style="margin:150px 0px 0px -200px;position:absolute;top:25%;left:59%;padding:5px;" src="img/loading/Preloader_3.gif" alt=""> -->
-<div class="se-pre-con"><img id="loadingIcon" src="img/loading/Preloader_3.gif" alt="">	</div>
+	<!--loading bar -->
+	<!-- <img style="margin:150px 0px 0px -200px;position:absolute;top:25%;left:59%;padding:5px;" src="img/loading/Preloader_3.gif" alt=""> -->
+	<div class="se-pre-con"><img id="loadingIcon" src="img/loading/Preloader_3.gif" alt=""> </div>
 
-<!-- <span class="loader"><span class="loader-inner"></span></span> -->
+	<!-- <span class="loader"><span class="loader-inner"></span></span> -->
 
 	<!-- start banner Area -->
 	<section class="banner-area" id="home">
@@ -106,7 +107,7 @@
 
 
 	<!-- Start about Area -->
-		<section class="about-area section-gap" id="about">
+	<section class="about-area section-gap" id="about">
 		<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="menu-content pb-70 col-lg-8">
@@ -727,7 +728,7 @@
 						<input id="name" name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
 
 						<input id="email" name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'"
-								class="common-input mb-20 form-control" required="" type="email">
+							class="common-input mb-20 form-control" required="" type="email">
 
 						<input id="subject" name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required="" type="text">
 					</div>
@@ -745,6 +746,7 @@
 
 	<!-- end contact Area -->
 
+
 	<!-- start footer Area -->
 	<footer class="footer-area section-gap">
 		<div class="container">
@@ -754,9 +756,8 @@
 						<h6>About Me</h6>
 						<p>
 							Thank you for visiting Developer Jieun Son Website!
-
 						</p>
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
 						<p class="footer-text">Copyright &copy;<script>
 								document.write(new Date().getFullYear());
 							</script> All rights reserved</p>
@@ -766,35 +767,12 @@
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					</div>
 				</div>
-				<div class="col-lg-5  col-md-6 col-sm-6">
-					<div class="single-footer-widget">
-						<h6>Resume Send</h6>
-						<p>If you want my resume, please leave your email</p>
-						<div class="" id="mc_embed_signup">
+				<!-- aaaaaaaaaaaaaaaaaaa -->
+			<div class="load-html" id="footer" data-source="footer.html"></div>
 
-							<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
-
-								<div class="d-flex flex-row">
-
-									<input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
-
-
-									<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-									<div style="position: absolute; left: -5000px;">
-										<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-									</div>
-
-									<!-- <div class="col-lg-4 col-md-4">
-												<button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
-											</div>  -->
-								</div>
-								<div class="info"></div>
-							</form>
-						</div>
-					</div>
-				</div>
+				<!-- aaaaaaaaaaaaaaaaaa -->
 				<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-					<div class="single-footer-widget">
+					<div style="float:right;" class="single-footer-widget">
 						<h6>Follow Me</h6>
 						<p>Let us be social</p>
 						<div class="footer-social d-flex align-items-center">
@@ -823,45 +801,53 @@
 	<script src="js/main.js"></script>
 
 	<script type="text/javascript">
-  //loading function
-	$(window).load(function() {
+		//loading function
+		$(window).load(function() {
 			// Animate loader off screen
 			$(".se-pre-con").fadeOut("slow");
 		});
 
- //pageUp scrollFunction
- // Set a variable for our button element.
- const scrollToTopButton = document.getElementById('js-top');
+		//pageUp scrollFunction
+		// Set a variable for our button element.
+		const scrollToTopButton = document.getElementById('js-top');
 
-	function scrollFunction() {
-		if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-			scrollToTopButton.style.display = "block";
-		} else {
-			scrollToTopButton.style.display = "none";
+		function scrollFunction() {
+			if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+				scrollToTopButton.style.display = "block";
+			} else {
+				scrollToTopButton.style.display = "none";
+			}
 		}
-	}
-	window.onscroll = function() {scrollFunction()};
+		window.onscroll = function() {
+			scrollFunction()
+		};
 
-const scrollToTop = () => {
-  // Let's set a variable for the number of pixels we are from the top of the document.
-  const c = document.documentElement.scrollTop || document.body.scrollTop;
-  // If that number is greater than 0, we'll scroll back to 0, or the top of the document.
-  // We'll also animate that scroll with requestAnimationFrame:
-  // https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
-  if (c > 0) {
-    window.requestAnimationFrame(scrollToTop);
-    // ScrollTo takes an x and a y coordinate.
-    // Increase the '10' value to get a smoother/slower scroll!
-    window.scrollTo(0, c - c / 10);
-  }
-};
+		const scrollToTop = () => {
+			// Let's set a variable for the number of pixels we are from the top of the document.
+			const c = document.documentElement.scrollTop || document.body.scrollTop;
+			// If that number is greater than 0, we'll scroll back to 0, or the top of the document.
+			// We'll also animate that scroll with requestAnimationFrame:
+			// https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
+			if (c > 0) {
+				window.requestAnimationFrame(scrollToTop);
+				// ScrollTo takes an x and a y coordinate.
+				// Increase the '10' value to get a smoother/slower scroll!
+				window.scrollTo(0, c - c / 10);
+			}
+		};
 
-// When the button is clicked, run our ScrolltoTop function above!
-scrollToTopButton.onclick = function(e) {
-  e.preventDefault();
-  scrollToTop();
-}
+		// When the button is clicked, run our ScrolltoTop function above!
+		scrollToTopButton.onclick = function(e) {
+			e.preventDefault();
+			scrollToTop();
+		}
 
+		//Footer html included
+		$(function() {
+			$(".load-html").each(function() {
+				$(this).load(this.dataset.source);
+			});
+		});
 		$('#sendMsgBt').click(function() {
 			//alert("이름 : "+$('#name').val()+" 이멜: "+$('#email').val()+" 주제: "+$('#subject').val()+" 내용 : "+$('#message').val())
 			$.ajax({
