@@ -83,7 +83,7 @@
 		<div class="container">
 			<div class="row justify-content-start align-items-center">
 				<div class="col-lg-6 col-md-12 no-padding banner-right">
-					<img class="img-fluid" src="img/header-img.png" alt="">
+					<img class="img-fluid" src="img/headerProfileImg.png" alt="">
 				</div>
 				<div class="col-lg-6 col-md-12 banner-left">
 					<h1 class="text-white">
@@ -168,12 +168,16 @@
 				</div>
 				<div class="col-lg-6 about-left justify-content-end d-flex">
 					<div class="myself-wrap">
-						<img class="img-fluid" src="img/about-img.jpg" alt="" style="">
+						<img class="img-fluid" src="img/aboutProfileImg.png" alt="" style="width:100%;">
 						<div class="desc" style="">
-							<h4>Jieun Son</h4>
-							<p class="pb-10">Web Developer</p>
-							<p><span class="lnr lnr-phone"></span> +82 10 6402 6090</p>
-							<p><span class="lnr lnr-envelope"></span> plmn855000@gmail.com</p>
+							<h2>Jieun Son</h2>
+							<!-- <p class="pb-10">FullStack Engineer</p> -->
+							<h4 class="pb-35" style="color:#55565c;margin-bottom:5px;">FullStack Engineer at MainLine</h4>
+							<!-- <p><span class="lnr lnr-phone"></span> +82 10 6402 6090</p>
+							<p><span class="lnr lnr-envelope"></span> plmn855000@gmail.com</p> -->
+							<h5 style="color:#95959e;width:375px;">Bachelor's degree in Computer Science at Korea National Open University</h5>
+							<br><br>
+							<h5 style="color:#95959e;">Seoul,South Korea</h5>
 							<a class="mt-30 text-uppercase talk-btn" href="#contact"><span>Contact</span></a>
 							<div class="socialMediaIcons">
 								<a href="https://github.com/JieunSon96" target="_blank"><img src="img/github.png" style="width:90px;" alt=""></a>
@@ -272,11 +276,13 @@
 						</div>
 						<div class="boxwrap row">
 
-							<div class="box"><img id="html" class="frontEndIcons" src="img/html.png" alt="HTML5"></div>
-							<div class="box"><img id="css" class="frontEndIcons" src="img/css.png" alt="CSS3"></div>
-							<div class="box"><img id="js" class="frontEndIcons" src="img/js.png" alt="JS"></div>
-							<div class="box"><img id="jsp" class="frontEndIcons" src="img/jsp.png" alt="JSP"></div>
-							<div class="box"><img id="react" class="frontEndIcons" src="img/react.png" alt="React"></div>
+							<div class="box">
+             <span tooltip="HTML">
+								<img id="HTML" class="frontEndIcons" src="img/html.png" alt="HTML5"></span></div>
+							<div class="box"> <span tooltip="CSS"><img id="css" class="frontEndIcons" src="img/css.png" alt="CSS3"></span></div>
+							<div class="box"><span tooltip="JavaScript"><img id="js" class="frontEndIcons" src="img/js.png" alt="JS"></span></div>
+							<div class="box"><span tooltip="JSP"><img id="jsp" class="frontEndIcons" src="img/jsp.png" alt="JSP"></span></div>
+							<div class="box"><span tooltip="React"><img id="react" class="frontEndIcons" src="img/react.png" alt="React"></span></div>
 						</div>
 					</div>
 				</div>
@@ -288,9 +294,9 @@
 						</div>
 						<div class="boxwrap2 row">
 
-							<div class="box2"><img class="backEndIcons" src="img/java.png" alt="JAVA"></div>
-							<div class="box2"><img class="backEndIcons" src="img/nodejs.png" alt="Node.js"></div>
-							<div class="box2"><img class="backEndIcons" src="img/php.png" alt="PHP"></div>
+							<div class="box2"><span tooltip="Java"><img class="backEndIcons" src="img/java.png" alt="JAVA"></span></div>
+							<div class="box2"><span tooltip="Node.js"><img class="backEndIcons" src="img/nodejs.png" alt="Node.js"></span></div>
+							<div class="box2"><span tooltip="PHP"><img class="backEndIcons" src="img/php.png" alt="PHP"></span></div>
 							<!-- <div class="box"><img  class="frontEndIcons" src="img/jsp.png"alt="JSP"></div>
 							<div class="box"><img   class="frontEndIcons" src="img/react.png" alt="React"></div> -->
 						</div>
@@ -307,11 +313,11 @@
 							<h4><a>Database</a></h4>
 						</div>
 						<div class="boxwrap row">
-							<div class="box"><img class="databaseIcons" src="img/postgresql.png" alt="PostgreSQL"></div>
-							<div class="box"><img class="databaseIcons" src="img/oracle.png" alt="Oracle"></div>
-							<div class="box"><img class="databaseIcons" src="img/mariadb.png" alt="MariaDB"></div>
-							<div class="box"><img class="databaseIcons" src="img/mongodb.png" alt="MongoDB"></div>
-							<div class="box"><img class="databaseIcons" src="img/mysql.png" alt="MySQL"></div>
+							<div class="box"><span tooltip="PostgreSQL"><img class="databaseIcons" src="img/postgresql.png" alt="PostgreSQL"></span></div>
+							<div class="box"><span tooltip="MariaDB"><img class="databaseIcons" src="img/mariadb.png" alt="MariaDB"></span></div>
+							<div class="box"><span tooltip="MongoDB"><img class="databaseIcons" src="img/mongodb.png" alt="MongoDB"></span></div>
+							<div class="box"><span tooltip="MySQL"><img class="databaseIcons" src="img/mysql.png" alt="MySQL"></span></div>
+								<div class="box"><span tooltip="Oracle"><img class="databaseIcons" src="img/oracle.png" alt="Oracle"></span></div>
 						</div>
 						<!-- <p>
 									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
@@ -325,8 +331,8 @@
 							<h4><a>Cloud</a></h4>
 						</div>
 						<div class="boxwrap row">
-							<div class="box"><img class="cloudIcons" src="img/amazon.png" alt="AWS"></div>
-							<div class="box"><img class="cloudIcons" src="img/heroku.png" alt="Heroku"></div>
+							<div class="box"><span tooltip="AWS"><img class="cloudIcons" src="img/amazon.png" alt="AWS"></span></div>
+							<div class="box"><span tooltip="Heroku"><img class="cloudIcons" src="img/heroku.png" alt="Heroku"></span></div>
 						</div>
 						<!-- <p>
 									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
@@ -340,7 +346,7 @@
 							<h4><a>Version Control System</a></h4>
 						</div>
 						<div class="boxwrap row">
-							<div class="box"><img class="versionControlIcons" src="img/git.png" alt="GIT"></div>
+							<div class="box"><span tooltip="Git"><img class="versionControlIcons" src="img/git.png" alt="GIT"></span></div>
 						</div>
 						<!-- <p>
 									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
