@@ -1,3 +1,11 @@
+/* html{
+  min-width:1080px;
+}
+
+body{
+  min-width:1080px;
+} */
+
 /* loding bar style */
 .se-pre-con {
   position: fixed;
@@ -64,11 +72,6 @@ height: 59%; */
   left: 2px;
 }
 
-.boxwrap {
-  display: table;
-  width: 100%;
-}
-
 .boxwrap2 {
   display: table;
   width: 50%;
@@ -76,17 +79,12 @@ height: 59%; */
   left: 120px;
 }
 
-.boxwrap .box {
-  display: table-cell;
-  /* 핵심! */
-  vertical-align: middle;
-  text-align: center;
+.row .box {
   padding: 10px;
 }
 
 .boxwrap2 .box2 {
   display: table-cell;
-  /* 핵심! */
   vertical-align: middle;
   text-align: center;
   padding: 10px;
