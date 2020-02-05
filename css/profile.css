@@ -5,7 +5,11 @@
 body{
   min-width:1080px;
 } */
-
+/* 모바일 수평 스크롤 금지 */
+html, body {
+max-width: 100%;
+overflow-x: hidden;
+}
 /* loding bar style */
 .se-pre-con {
   position: fixed;
