@@ -10,6 +10,12 @@ html, body {
 max-width: 100%;
 overflow-x: hidden;
 }
+
+#talkBt{
+display:inline-block;
+margin-bottom: 38px;
+
+}
 /* loding bar style */
 .se-pre-con {
   position: fixed;
