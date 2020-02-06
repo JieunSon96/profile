@@ -3048,7 +3048,6 @@ tbody.collapse.show {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-  -webkit-backface-visibility: hidden;
 }
 
 .navbar > .container,
@@ -3079,6 +3078,7 @@ tbody.collapse.show {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  -webkit-backface-visibility: hidden;
 }
 
 .navbar-nav .nav-link {
