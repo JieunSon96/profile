@@ -1,3 +1,4 @@
+<?php
 $gmail_id="plmn855000@gmail.com";
 
 //global $gmail_pw;
