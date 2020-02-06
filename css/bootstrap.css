@@ -3048,6 +3048,7 @@ tbody.collapse.show {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  -webkit-backface-visibility: hidden;
 }
 
 .navbar > .container,
