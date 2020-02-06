@@ -70,12 +70,6 @@ height: 59%; */
   background-color: #E8E8E8;
 }
 
-/* #pageUpImg {
-  width: 45px;
-  position: relative;
-  left: 13px;
-  top: 10px;
-} */
 .socialMediaIcons {
   position: relative;
   top: 18px;
@@ -127,6 +121,13 @@ height: 59%; */
 
 .devicon {
   max-width: 2em;
+}
+
+#header{
+  -webkit-backface-visibility: hidden !important;
+  backface-visibility: hidden !important;
+  position: fixed;
+  z-index: 1000;
 }
 
 /* footer icons */
