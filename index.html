@@ -34,7 +34,15 @@
 	<link rel="stylesheet" href="css/profile.css?after">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<link href="css/profile.css" media="screen and (min-width: 1080px) and (max-width: 1024px)" rel="preload">
-  <script type="text/javascript"></script>
+  <script type="text/javascript">
+//   $(document).ready(function (){
+// 	$(".se-pre-con").fadeOut("slow");
+//   })
+	$(window).load(function() {
+			// Animate loader off screen
+			$(".se-pre-con").fadeOut("slow");
+		});
+  </script>
 </head>
 
 <body>
@@ -778,10 +786,10 @@
 
 	<script type="text/javascript">
 		//loading function
-		$(window).load(function() {
-			// Animate loader off screen
-			$(".se-pre-con").fadeOut("slow");
-		});
+		// $(window).load(function() {
+		// 	// Animate loader off screen
+		// 	$(".se-pre-con").fadeOut("slow");
+		// });
 
 		//pageUp scrollFunction
 		// Set a variable for our button element.
