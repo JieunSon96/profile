@@ -34,15 +34,15 @@
 	<link rel="stylesheet" href="css/profile.css?after">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<link href="css/profile.css" media="screen and (min-width: 1080px) and (max-width: 1024px)" rel="preload">
-  <script type="text/javascript">
-//   $(document).ready(function (){
-// 	$(".se-pre-con").fadeOut("slow");
-//   })
-	$(window).load(function() {
+	<script type="text/javascript">
+		//   $(document).ready(function (){
+		// 	$(".se-pre-con").fadeOut("slow");
+		//   })
+		$(window).load(function() {
 			// Animate loader off screen
 			$(".se-pre-con").fadeOut("slow");
 		});
-  </script>
+	</script>
 </head>
 
 <body>
@@ -111,6 +111,7 @@
 			</div>
 		</div>
 	</section>
+
 	<!-- End banner Area -->
 
 
@@ -247,7 +248,7 @@
 				</div>
 			</div>
 
-			<div class="row" style="margin-top:25px;">
+			<div class="row" style="margin-top:70px;">
 
 				<div class="col-lg-6 col-md-6 ">
 					<div class="single-feature mb-30">
@@ -258,8 +259,8 @@
 						<p>
 							<div class="row">
 								<div class="box">
-	             <span tooltip="HTML">
-									<img id="HTML" class="frontEndIcons" src="img/html.png" alt="HTML5"></span></div>
+									<span tooltip="HTML">
+										<img id="HTML" class="frontEndIcons" src="img/html.png" alt="HTML5"></span></div>
 								<div class="box"> <span tooltip="CSS"><img id="css" class="frontEndIcons" src="img/css.png" alt="CSS3"></span></div>
 								<div class="box"><span tooltip="JavaScript"><img id="js" class="frontEndIcons" src="img/js.png" alt="JS"></span></div>
 								<div class="box"><span tooltip="JSP"><img id="jsp" class="frontEndIcons" src="img/jsp.png" alt="JSP"></span></div>
@@ -267,25 +268,25 @@
 							</div>
 						</p>
 					</div>
-	</div>
+				</div>
 
-	<div class="col-lg-6 col-md-6 ">
+				<div class="col-lg-6 col-md-6 ">
 					<div class="single-feature mb-30">
 						<div class="title d-flex flex-row pb-20">
 							<!-- <span class="lnr lnr-user"></span> -->
 							<h4>Back-end Developement</h4>
 						</div>
 						<p>
-							<div class="row" >
+							<div class="row">
 
 								<div class="box"><span tooltip="Java"><img class="backEndIcons" src="img/java.png" alt="JAVA"></span></div>
 								<div class="box"><span tooltip="Node.js"><img class="backEndIcons" src="img/nodejs.png" alt="Node.js"></span></div>
 								<div class="box"><span tooltip="PHP"><img class="backEndIcons" src="img/php.png" alt="PHP"></span></div>
 
-					</div>
+							</div>
 						</p>
 					</div>
-</div>
+				</div>
 
 				<div class="col-lg-6 col-md-6 ">
 					<div class="single-feature mb-30">
@@ -298,7 +299,7 @@
 							<div class="box"><span tooltip="MariaDB"><img class="databaseIcons" src="img/mariadb.png" alt="MariaDB"></span></div>
 							<div class="box"><span tooltip="MongoDB"><img class="databaseIcons" src="img/mongodb.png" alt="MongoDB"></span></div>
 							<div class="box"><span tooltip="MySQL"><img class="databaseIcons" src="img/mysql.png" alt="MySQL"></span></div>
-								<div class="box"><span tooltip="Oracle"><img class="databaseIcons" src="img/oracle.png" alt="Oracle"></span></div>
+							<div class="box"><span tooltip="Oracle"><img class="databaseIcons" src="img/oracle.png" alt="Oracle"></span></div>
 						</div>
 						<!-- <p>
 									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
@@ -336,7 +337,7 @@
 				</div>
 
 
-</div>
+			</div>
 		</div>
 	</section>
 	<!-- End service Area -->
@@ -397,6 +398,145 @@
 
 	<!-- Start project Area -->
 	<section class="project-area section-gap" id="project">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="menu-content pb-70 col-lg-8">
+					<div class="title text-center">
+						<h1 class="mb-10">Latest Done Projects</h1>
+						<p>Who are in extremely love with creative system.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+
+				<div id="myBtnContainer">
+
+					<button class="btn active" onclick="filterSelection('latest')">Latest</button>
+
+					<button class="btn" onclick="filterSelection('oldest')">Oldest</button>
+
+					<button class="btn" onclick="filterSelection('website')">Websites</button>
+
+					<button class="btn" onclick="filterSelection('software')">Software</button>
+
+				</div>
+				<!-- Portfolio Gallery Grid -->
+				<div class="row">
+					<ul class="card-list" id="projects">
+						<div data-date="2019-08-31" class="column website">
+							<li class="card">
+								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/animals);" data-image-full="https://placeimg.com/640/480/animals">
+									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
+								</a>
+								<a class="card-description" href="https://michellezauner.bandcamp.com/album/psychopomp-2" target="_blank">
+									<h2>첫번째 프로젝트 </h2>
+									<p>Japanese Breakfast</p>
+								</a>
+							</li>
+						</div>
+
+						<div data-date="2018-08-31" class="column website">
+							<li class="card">
+								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/animals);" data-image-full="https://placeimg.com/640/480/animals">
+									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
+								</a>
+								<a class="card-description" href="https://placeimg.com/640/480/animals" target="_blank">
+									<h2>두번째 프로젝트 </h2>
+									<p>Japanese Breakfast</p>
+								</a>
+							</li>
+						</div>
+
+						<div data-date="2017-08-31" class="column website">
+							<li class="card">
+								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/animals);" data-image-full="https://placeimg.com/640/480/animals">
+									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
+								</a>
+								<a class="card-description" href="https://placeimg.com/640/480/animals" target="_blank">
+									<h2>세번째 프로젝트 </h2>
+									<p>Japanese Breakfast</p>
+								</a>
+							</li>
+						</div>
+
+						<div data-date="2016-08-31" class="column software">
+							<li class="card">
+								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/arch);" data-image-full="https://placeimg.com/640/480/arch">
+									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
+								</a>
+								<a class="card-description" href="https://placeimg.com/640/480/animals" target="_blank">
+									<h2>Psychopomp</h2>
+									<p>네번째 프로젝트</p>
+								</a>
+							</li>
+
+						</div>
+
+						<div data-date="2015-08-31" class="column software">
+							<li class="card">
+								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/arch);" data-image-full="https://placeimg.com/640/480/arch">
+									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
+								</a>
+								<a class="card-description" href="https://placeimg.com/640/480/animals" target="_blank">
+									<h2>Psychopomp</h2>
+									<p>다섯번째 프로젝트</p>
+								</a>
+							</li>
+						</div>
+
+						<div data-date="2014-08-31" class="column website">
+							<li class="card">
+								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/arch);" data-image-full="https://placeimg.com/640/480/arch">
+									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
+								</a>
+								<a class="card-description" href="https://placeimg.com/640/480/animals" target="_blank">
+									<h2>Psychopomp</h2>
+									<p>육번째</p>
+								</a>
+							</li>
+						</div>
+
+						<div data-date="2013-08-31" class="column software">
+							<li class="card">
+								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/tech);" data-image-full="https://placeimg.com/640/480/tech">
+									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
+								</a>
+								<a class="card-description" href="https://placeimg.com/640/480/animals" target="_blank">
+									<h2>Psychopomp</h2>
+									<p>칠번째</p>
+								</a>
+							</li>
+						</div>
+
+						<div data-date="2012-08-31" class="column software">
+							<li class="card">
+								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/tech);" data-image-full="https://placeimg.com/640/480/tech">
+									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
+								</a>
+								<a class="card-description" href="https://placeimg.com/640/480/animals" target="_blank">
+									<h2>8번째</h2>
+									<p>Japanese Breakfast</p>
+								</a>
+							</li>
+						</div>
+
+						<div data-date="2011-08-31" class="column software">
+							<li class="card">
+								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/tech);" data-image-full="https://placeimg.com/640/480/tech">
+									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
+								</a>
+								<a class="card-description" href="https://placeimg.com/640/480/animals" target="_blank">
+									<h2>9번째</h2>
+									<p>Japanese Breakfast</p>
+								</a>
+							</li>
+						</div>
+					</ul>
+				</div><!-- Grid end -->
+			</div><!-- Main end -->
+
+	</section>
+	<!-- <section class="project-area section-gap" id="project">
 		<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="menu-content pb-70 col-lg-8">
@@ -511,8 +651,8 @@
 								<span class="sr-only">다음</span>
 							</a>
 						</div>
-						<!--<img class="img-fluid" src="img/l3.jpg" alt="">-->
-						<h4 class="pt-100 pb-30" style="position:relative;top:-10vh;"><a href="https://devpost.com/software/the-second-word-of-these-cats">Catwords Hycon Edition</a></h4>
+						<img class="img-fluid" src="img/l3.jpg" alt="">-->
+	<!-- <h4 class="pt-100 pb-30" style="position:relative;top:-10vh;"><a href="https://devpost.com/software/the-second-word-of-these-cats">Catwords Hycon Edition</a></h4>
 						<p>
 							It is an Integrate information security intelligence system with HYCON blockchain platform.
 							Catswords Hycon Edition allow you to take advantage of the same or more robust networks that are equivalent to Darkcoin and special-purpose ETHs for malicious hackers and malware authors.
@@ -610,7 +750,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- End project Area -->
 
 	<!-- Start feature Area -->
@@ -754,7 +894,7 @@
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					</div>
 				</div>
-			<div class="load-html" id="footer" data-source="footer.html"></div>
+				<div class="load-html" id="footer" data-source="footer.html"></div>
 				<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
 					<div class="single-footer-widget">
 						<h6>Follow Me</h6>
@@ -793,6 +933,8 @@
 
 		//pageUp scrollFunction
 		// Set a variable for our button element.
+
+
 		const scrollToTopButton = document.getElementById('js-top');
 
 		function scrollFunction() {
@@ -825,6 +967,171 @@
 			e.preventDefault();
 			scrollToTop();
 		}
+
+		//project
+
+
+		filterSelection("latest")
+
+		function filterSelection(c) {
+			var x, i, projectRowDiv, projectsDiv;
+			x = document.getElementsByClassName("column");
+
+			if (c == "latest") {
+				c = "";
+				console.log("x.length의값은 ? " + x.length);
+				projectRowDiv = $("#projects");
+				projectsDiv = projectRowDiv.children('.column').detach().get();
+				projectsDiv.sort(function(a, b) {
+					return new Date($(b).data("date")) - new Date($(a).data("date"));
+				});
+
+
+				projectRowDiv.append(projectsDiv);
+
+				// for (i = 0; i < x.length; i++) {
+				// 	console.log("x[i]의 값은? "+x[i].innerHTML);
+				//
+				// 	w3RemoveClass(x[i], "show");
+				// 	if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+				// }
+			}
+
+			console.log("c의값은? " + c);
+			if (c == "oldest") {
+				c = "";
+				projectRowDiv = $("#projects");
+				projectsDiv = projectRowDiv.children('.column').detach().get();
+				projectsDiv.sort(function(a, b) {
+					return new Date($(a).data("date")) - new Date($(b).data("date"));
+				});
+
+
+				projectRowDiv.append(projectsDiv);
+				// for(i=x.length-1; i >= 0; i--){
+				//  console.log("i의값은 : "+ i);
+				//  console.log("x[i]의 값은? "+x[i].innerHTML);
+				//  w3RemoveClass(x[i], "show");
+				//  console.log("뷁@@@@@@@ : "+x[i].className.indexOf(c));
+				//  if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+				// }
+
+
+
+			}
+
+			if (c == "website") {
+				projectRowDiv = $("#projects");
+				projectsDiv = projectRowDiv.children('.website').detach().get();
+
+
+				projectsDiv.sort(function(a, b) {
+					return new Date($(b).data("date")) - new Date($(a).data("date"));
+				});
+
+				projectRowDiv.append(projectsDiv);
+				// var elem = $('#projects').find('div').sort(doSort);
+				//  $('#container').append(elem);
+
+			}
+
+			if (c == "software") {
+				projectRowDiv = $("#projects");
+				projectsDiv = projectRowDiv.children('.software').detach().get();
+
+
+				projectsDiv.sort(function(a, b) {
+					return new Date($(b).data("date")) - new Date($(a).data("date"));
+				});
+
+				projectRowDiv.append(projectsDiv);
+			}
+
+				for (i = 0; i < x.length; i++) {
+					w3RemoveClass(x[i], "show");
+					if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+				}
+			
+
+
+
+		}
+
+		function w3AddClass(element, name) {
+			var i, arr1, arr2;
+			arr1 = element.className.split(" ");
+			arr2 = name.split(" ");
+			for (i = 0; i < arr2.length; i++) {
+				if (arr1.indexOf(arr2[i]) == -1) {
+					element.className += " " + arr2[i];
+					console.log("element.className +=: " + element.className);
+				}
+			}
+		}
+
+		function w3RemoveClass(element, name) {
+			console.log("element : " + element.innerHTML + " / name: " + name);
+			var i, arr1, arr2;
+			console.log("element : " + element + " / name : " + name);
+			arr1 = element.className.split(" ");
+			console.log("arr1 : " + arr1);
+			arr2 = name.split(" ");
+			for (i = 0; i < arr2.length; i++) {
+				while (arr1.indexOf(arr2[i]) > -1) {
+					arr1.splice(arr1.indexOf(arr2[i]), 1);
+				}
+			}
+			element.className = arr1.join(" ");
+			console.log("element.className : " + element.className);
+		}
+
+		// Add active class to the current button (highlight it)
+		var btnContainer = document.getElementById("myBtnContainer");
+		var btns = btnContainer.getElementsByClassName("btn");
+		for (var i = 0; i < btns.length; i++) {
+			btns[i].addEventListener("click", function() {
+				var current = document.getElementsByClassName("active");
+				current[0].className = current[0].className.replace(" active", "");
+				this.className += " active";
+			});
+		}
+
+
+		//156000000000006l
+		// This is "probably" IE9 compatible but will need some fallbacks for IE8
+		// - (event listeners, forEach loop)
+
+		// wait for the entire page to finish loading
+		window.addEventListener('load', function() {
+
+			// setTimeout to simulate the delay from a real page load
+			setTimeout(lazyLoad, 1000);
+
+		});
+
+		function lazyLoad() {
+			var card_images = document.querySelectorAll('.card-image');
+
+			// loop over each card image
+			card_images.forEach(function(card_image) {
+				var image_url = card_image.getAttribute('data-image-full');
+				var content_image = card_image.querySelector('img');
+
+				// change the src of the content image to load the new high res photo
+				content_image.src = image_url;
+
+				// listen for load event when the new photo is finished loading
+				content_image.addEventListener('load', function() {
+					// swap out the visible background image with the new fully downloaded photo
+					card_image.style.backgroundImage = 'url(' + image_url + ')';
+					// add a class to remove the blur filter to smoothly transition the image change
+					card_image.className = card_image.className + ' is-loaded';
+				});
+
+			});
+
+		}
+
 
 		//Footer html included
 		$(function() {
