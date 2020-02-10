@@ -408,127 +408,184 @@
 				</div>
 			</div>
 			<div class="row">
-
-				<div id="myBtnContainer">
-
+			 
+				<div class="row" id="myBtnContainer">
+					<!-- <h5 >Filter by : </h5> -->
 					<button class="btn active" onclick="filterSelection('latest')">Latest</button>
 
 					<button class="btn" onclick="filterSelection('oldest')">Oldest</button>
 
-					<button class="btn" onclick="filterSelection('website')">Websites</button>
+					<button class="btn" onclick="filterSelection('webapplication')">Web Applications</button>
 
 					<button class="btn" onclick="filterSelection('software')">Software</button>
 
 				</div>
+			 
 				<!-- Portfolio Gallery Grid -->
 				<div class="row">
 					<ul class="card-list" id="projects">
-						<div data-date="2019-08-31" class="column website">
+						<div data-date="2020-02-01" class="column webapplication">
 							<li class="card">
-								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/animals);" data-image-full="https://placeimg.com/640/480/animals">
-									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
+								<a class="card-image" href="https://www.lawmaking.go.kr/" target="_blank" style="background-image: url(img/govsupcenter.png);" data-image-full="img/govsupcenter.png">
+									<img src="img/govsupcenter.png" alt="lawmaking" />
+									
 								</a>
-								<a class="card-description" href="https://michellezauner.bandcamp.com/album/psychopomp-2" target="_blank">
-									<h2>첫번째 프로젝트 </h2>
-									<p>Japanese Breakfast</p>
+								<a class="card-description" href="https://www.lawmaking.go.kr/" target="_blank">
+									<h3>Government Legal Aid Center</h3>
+									<p>provides a package of services including government legislation plans and legislative knowledge</p>
 								</a>
+                               <div class="row projectRow">
+								<a id="tagBt" class="tagBt" ><span>HTML</span></a>
+								<a id="tagBt" class="tagBt" ><span>CSS</span></a>
+								<a id="tagBt" class="tagBt"><span>JSP</span></a>
+								<a id="tagBt" class="tagBt"><span>JavaScript</span></a>
+								<a id="tagBt" class="tagBt" ><span>Jquery</span></a>
+								<a id="tagBt" class="tagBt" ><span>Java</span></a>
+								<a id="tagBt" class="tagBt" ><span>Oracle</span></a>
+							</div>
+							<div class="viewBtDiv">
+								<a id="viewBt" class="header-btn btn" href="https://www.lawmaking.go.kr/"  target="_blank" ><span>VIEW</span></a>
+							</div>
 							</li>
 						</div>
 
-						<div data-date="2018-08-31" class="column website">
+						<div data-date="2019-12-31" class="column webapplication">
 							<li class="card">
-								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/animals);" data-image-full="https://placeimg.com/640/480/animals">
-									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
+								<a class="card-image" href="https://github.com/JieunSon96/express" target="_blank" style="background-image: url(img/reactNode.png);" data-image-full="img/reactNode.png">
+									<img src="https://github.com/JieunSon96/express" alt="CORUS" />
 								</a>
-								<a class="card-description" href="https://placeimg.com/640/480/animals" target="_blank">
-									<h2>두번째 프로젝트 </h2>
-									<p>Japanese Breakfast</p>
+								<a class="card-description" href="https://github.com/JieunSon96/express" target="_blank">
+									<h3>ReactNode</h3>
+									<p>a login system using redux, jwt authorization</p>
 								</a>
+
+								<div class="row projectRow">
+									<a id="tagBt" class="tagBt" ><span>HTML</span></a>
+									<a id="tagBt" class="tagBt" ><span>CSS</span></a>
+									<a id="tagBt" class="tagBt"><span>React</span></a>
+									<a id="tagBt" class="tagBt"><span>Node.js</span></a>
+									<a id="tagBt" class="tagBt" ><span>Express</span></a>
+									<a id="tagBt" class="tagBt" ><span>MongoDB</span></a>						
+								</div>
+								<div class="viewBtDiv">
+									<a id="viewBt" class="header-btn btn" href="https://github.com/JieunSon96/express"  target="_blank" ><span>VIEW</span></a>
+								</div>
 							</li>
 						</div>
 
-						<div data-date="2017-08-31" class="column website">
+						<div data-date="2019-08-31" class="column webapplication">
 							<li class="card">
-								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/animals);" data-image-full="https://placeimg.com/640/480/animals">
-									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
+								<a class="card-image" href="https://corus.kaist.edu/" target="_blank" style="background-image: url(img/corus.png);" data-image-full="img/corus.png">
+									<img src="https://placeimg.com/640/480/animals" alt="CORUS" />
 								</a>
-								<a class="card-description" href="https://placeimg.com/640/480/animals" target="_blank">
-									<h2>세번째 프로젝트 </h2>
-									<p>Japanese Breakfast</p>
+								<a class="card-description" href="https://corus.kaist.edu/" target="_blank">
+									<h3>CORUS</h3>
+									<p>a healthcare remedy evaluation system using blockchain-based crowdsourcing on a cloud computing platform</p>
 								</a>
+
+								<div class="row projectRow">
+									<a id="tagBt" class="tagBt" ><span>Java</span></a>
+									<a id="tagBt" class="tagBt" ><span>Spring Boot</span></a>
+									<a id="tagBt" class="tagBt"><span>Docker</span></a>
+									<a id="tagBt" class="tagBt"><span>AWS</span></a>
+									<a id="tagBt" class="tagBt" ><span>PostgreSQL</span></a>						
+								</div>
+								<div class="viewBtDiv"> 
+									<a id="viewBt" class="header-btn btn" href="https://www.lawmaking.go.kr/"  target="_blank" ><span>VIEW</span></a>
+								</div>
 							</li>
 						</div>
 
-						<div data-date="2016-08-31" class="column software">
+						<div data-date="2019-07-31" class="column software">
 							<li class="card">
-								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/arch);" data-image-full="https://placeimg.com/640/480/arch">
-									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
+								<a class="card-image" href="hhttps://github.com/gnh1201/CatswordsTab" target="_blank" style="background-image: url(img/catwordsTab.png);" data-image-full="img/catwordsTab.png">
+									<img src="https://github.com/gnh1201/CatswordsTab" alt="catwordsTab" />
 								</a>
-								<a class="card-description" href="https://placeimg.com/640/480/animals" target="_blank">
-									<h2>Psychopomp</h2>
-									<p>네번째 프로젝트</p>
+								<a class="card-description" href="https://github.com/gnh1201/CatswordsTab" target="_blank">
+									<h3>CatswordsTab</h3>
+									<p>Extracts header and integrity information to provide file structure information, providing infrastructure for assessment of the program</p>
 								</a>
-							</li>
 
-						</div>
-
-						<div data-date="2015-08-31" class="column software">
-							<li class="card">
-								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/arch);" data-image-full="https://placeimg.com/640/480/arch">
-									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
-								</a>
-								<a class="card-description" href="https://placeimg.com/640/480/animals" target="_blank">
-									<h2>Psychopomp</h2>
-									<p>다섯번째 프로젝트</p>
-								</a>
+								<div class="row projectRow">
+									<a id="tagBt" class="tagBt" ><span>HTML</span></a>
+									<a id="tagBt" class="tagBt" ><span>CSS</span></a>
+									<a id="tagBt" class="tagBt" ><span>JavaScript</span></a>
+									<a id="tagBt" class="tagBt"><span>Jquery</span></a>						
+								</div>
+								<div class="viewBtDiv">
+									<a id="viewBt" class="header-btn btn" href="https://github.com/gnh1201/CatswordsTab"  target="_blank" ><span>VIEW</span></a>
+								</div>
 							</li>
 						</div>
 
-						<div data-date="2014-08-31" class="column website">
+						
+
+						<div data-date="2018-09-04" class="column webapplication">
 							<li class="card">
-								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/arch);" data-image-full="https://placeimg.com/640/480/arch">
-									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
+								<a class="card-image" href="https://github.com/JieunSon96/Villim" target="_blank" style="background-image: url(img/villim.png);" data-image-full="img/villim.png">
+									<img src="https://github.com/JieunSon96/Villim" alt="Villim" />
 								</a>
-								<a class="card-description" href="https://placeimg.com/640/480/animals" target="_blank">
-									<h2>Psychopomp</h2>
-									<p>육번째</p>
+								<a class="card-description" href="https://github.com/JieunSon96/Villim" target="_blank">
+									<h3>Villim</h3>
+									<p>A platform that can easily and simply share accommodation to meet the needs of guests and hosts in the era of shared economy</p>
 								</a>
+
+								<div class="row projectRow">
+									<a id="tagBt" class="tagBt" ><span>HTML</span></a>
+									<a id="tagBt" class="tagBt" ><span>CSS</span></a>
+									<a id="tagBt" class="tagBt"><span>JavaScript</span></a>
+									<a id="tagBt" class="tagBt"><span>Jquery</span></a>
+									<a id="tagBt" class="tagBt" ><span>Java</span></a>	
+									<a id="tagBt" class="tagBt" ><span>Spring</span></a>
+									<a id="tagBt" class="tagBt" ><span>Oracle</span></a>							
+								</div>
+								<div class="viewBtDiv">
+									<a id="viewBt" class="header-btn btn" href="https://www.lawmaking.go.kr/"  target="_blank" ><span>VIEW</span></a>
+								</div>
 							</li>
 						</div>
 
-						<div data-date="2013-08-31" class="column software">
+						<div data-date="2018-06-28" class="column webapplication">
 							<li class="card">
-								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/tech);" data-image-full="https://placeimg.com/640/480/tech">
-									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
+								<a class="card-image" href="alert('MeetNow');" target="_blank" style="background-image: url(img/meetNow.png);" data-image-full="img/meetNow.png">
+									<img src="https://github.com/JieunSon96/Villim" alt="MeetNow" />
 								</a>
-								<a class="card-description" href="https://placeimg.com/640/480/animals" target="_blank">
-									<h2>Psychopomp</h2>
-									<p>칠번째</p>
+								<a class="card-description" href="https://github.com/JieunSon96/Villim" target="_blank">
+									<h3>Meet Now</h3>
+									<p>A platform that can easily and simply share accommodation to meet the needs of guests and hosts in the era of shared economy</p>
 								</a>
+
+								<div class="row projectRow">
+									<a id="tagBt" class="tagBt" ><span>HTML</span></a>
+									<a id="tagBt" class="tagBt" ><span>CSS</span></a>
+									<a id="tagBt" class="tagBt"><span>JavaScript</span></a>
+									<a id="tagBt" class="tagBt"><span>Jquery</span></a>
+									<a id="tagBt" class="tagBt" ><span>Java</span></a>	
+									<a id="tagBt" class="tagBt" ><span>Spring</span></a>
+									<a id="tagBt" class="tagBt" ><span>Oracle</span></a>							
+								</div>
+								<div class="viewBtDiv">
+									<a id="viewBt" class="header-btn btn" href="https://www.lawmaking.go.kr/"  target="_blank" ><span>VIEW</span></a>
+								</div>
 							</li>
 						</div>
 
-						<div data-date="2012-08-31" class="column software">
+						<div data-date="2018-06-28" class="column software">
 							<li class="card">
-								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/tech);" data-image-full="https://placeimg.com/640/480/tech">
-									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
+								<a class="card-image" href="" target="_blank" style="background-image: url(img/SPLA.png);" data-image-full="img/SPLA.png">
+									<img src="https://www.youtube.com/watch?v=ah0VsdfVNAE" alt="SPLA" />
 								</a>
-								<a class="card-description" href="https://placeimg.com/640/480/animals" target="_blank">
-									<h2>8번째</h2>
-									<p>Japanese Breakfast</p>
+								<a class="card-description" href="https://www.youtube.com/watch?v=ah0VsdfVNAE" target="_blank">
+									<h3>SPLA</h3>
+									<p>A platform that can easily and simply share accommodation to meet the needs of guests and hosts in the era of shared economy</p>
 								</a>
-							</li>
-						</div>
 
-						<div data-date="2011-08-31" class="column software">
-							<li class="card">
-								<a class="card-image" href="https://placeimg.com/640/480/animals" target="_blank" style="background-image: url(https://placeimg.com/640/480/tech);" data-image-full="https://placeimg.com/640/480/tech">
-									<img src="https://placeimg.com/640/480/animals" alt="Psychopomp" />
-								</a>
-								<a class="card-description" href="https://placeimg.com/640/480/animals" target="_blank">
-									<h2>9번째</h2>
-									<p>Japanese Breakfast</p>
-								</a>
+								<div class="row projectRow">
+									<a id="tagBt" class="tagBt" ><span>Java</span></a>								
+								</div>
+								<div class="viewBtDiv">
+									<a id="viewBt" class="header-btn btn" href="https://www.youtube.com/watch?v=ah0VsdfVNAE"  target="_blank" ><span>VIEW</span></a>
+								</div>
 							</li>
 						</div>
 					</ul>
@@ -536,306 +593,7 @@
 			</div><!-- Main end -->
 
 	</section>
-	<!-- <section class="project-area section-gap" id="project">
-		<div class="container">
-			<div class="row d-flex justify-content-center">
-				<div class="menu-content pb-70 col-lg-8">
-					<div class="title text-center">
-						<h1 class="mb-10">Latest Done Projects</h1>
-						<p>Who are in extremely love with creative system.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6 project-left">
-					<div class="single-project pb-100">
-						<object type="text/html" style="width:100%;" height="340" data="//www.youtube.com/embed/ah0VsdfVNAE" allowFullScreen></object>
-						<h4 class="pt-100 pb-30">
-							<a href="#">Meet Now</a></h4>
-						<p>
-							This is a community site for groups of people with the same hobby.It's a group leader who's going to have a meeting with people to get together and work with them.Through sign - up and Login System, we recommend the related groups with
-							interest from the users. It was implemented using various APIs and libraries.
-						</p>
-					</div>
-					<div class="single-project">
-						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="position:relative;top:-10vh;">
-							<ol class="carousel-indicators">
-								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-								<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-								<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-							</ol>
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<img class="d-block w-100" src="img/villim_1.png" alt="1">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_2.png" alt="2">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_3.png" alt="3">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_4.png" alt="4">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_5.png" alt="5">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_6.png" alt="6">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_7.png" alt="7">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_8.png" alt="8">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_9.png" alt="9">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_10.png" alt="10">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_11.png" alt="11">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_12.png" alt="12">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_13.png" alt="13">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_14.png" alt="14">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_15.png" alt="15">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_16.png" alt="16">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_17.png" alt="17">
-								</div>
-
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_18.png" alt="18">
-								</div>
-
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_19.png" alt="19">
-								</div>
-
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_21.png" alt="20">
-								</div>
-
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_20.png" alt="21">
-								</div>
-
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_22.png" alt="22">
-								</div>
-
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/villim_23.png" alt="23">
-								</div>
-
-							</div>
-							<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="sr-only">이전</span>
-							</a>
-							<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="sr-only">다음</span>
-							</a>
-						</div>
-						<img class="img-fluid" src="img/l3.jpg" alt="">-->
-	<!-- <h4 class="pt-100 pb-30" style="position:relative;top:-10vh;"><a href="https://devpost.com/software/the-second-word-of-these-cats">Catwords Hycon Edition</a></h4>
-						<p>
-							It is an Integrate information security intelligence system with HYCON blockchain platform.
-							Catswords Hycon Edition allow you to take advantage of the same or more robust networks that are equivalent to Darkcoin and special-purpose ETHs for malicious hackers and malware authors.
-							Catswords Hycon Edition give you the power to defeat virtual currency and block-chain warfare against malicious hackers and malware authors.
-							Catswords Hycon Edition primary goal is to legally protect security analysts.
-						</p>
-
-					</div>
-				</div>
-				<div class="col-lg-6 project-right">
-					<div class="single-project">
-						<h4 class="pt-30 pb-30"><a href="#">Student Programming Language Assistance</a></h4>
-						<p class=" pb-100">
-							An auxiliary system for students who study programming.
-							<br>Login/Sign-up/Profile/Chat/Remote Control/Capture/Board/Recruitment Service
-						</p>
-
-						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-							<ol class="carousel-indicators">
-								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-								<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-								<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-							</ol>
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<img class="d-block w-100" src="img/meetNow_1.png" alt="1">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/meetNow_2.png" alt="2">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/meetNow_3.png" alt="3">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/meetNow_4.png" alt="4">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/meetNow_5.png" alt="5">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/meetNow_6.png" alt="6">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/meetNow_7.png" alt="7">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/meetNow_8.png" alt="8">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/meetNow_9.png" alt="9">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/meetNow_10.png" alt="10">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/meetNow_11.png" alt="11">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/meetNow_12.png" alt="12">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/meetNow_13.png" alt="13">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/meetNow_14.png" alt="14">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/meetNow_15.png" alt="15">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="img/meetNow_16.png" alt="16">
-								</div>
-
-							</div>
-							<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="sr-only">이전</span>
-							</a>
-							<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="sr-only">다음</span>
-							</a>
-						</div>
-
-					</div>
-					<div class="single-project">
-						<h4 class="pt-100 pb-30"><a href="#">Villim</a></h4>
-						<p class=" pb-30">
-							Villim is a hotel-sharing platform. A platform that a host with a spare home provides to guests who need a home. It has a variety of features, including a message function that allows communication between the host and the guest, and a
-							recommendation of local and search-based homes.In addition, the hotel bill is conveniently managed by the administrator and implemented using various APIs
-						</p>
-
-						<object type="text/html" style="width:100%;" height="340" data="//www.youtube.com/embed/-gQIuFIvlLM" allowFullScreen></object>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-	<!-- End project Area -->
-
-	<!-- Start feature Area -->
-	<!-- <section class="feature-area pt-100">
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="menu-content pb-70 col-lg-8">
-							<div class="title text-center">
-								<h1 class="mb-10">Some Features that Made us Unique</h1>
-								<p>Who are in extremely love with creative system.</p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 col-md-6 ">
-							<div class="single-feature mb-30">
-								<div class="title d-flex flex-row pb-20">
-									<span class="lnr lnr-user"></span>
-									<h4><a href="#">Expert Technicians</a></h4>
-								</div>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 ">
-							<div class="single-feature mb-30">
-								<div class="title d-flex flex-row pb-20">
-									<span class="lnr lnr-license"></span>
-									<h4><a href="#">Professional Service</a></h4>
-								</div>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 ">
-							<div class="single-feature mb-30">
-								<div class="title d-flex flex-row pb-20">
-									<span class="lnr lnr-phone"></span>
-									<h4><a href="#">Great Support</a></h4>
-								</div>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 ">
-							<div class="single-feature">
-								<div class="title d-flex flex-row pb-20">
-									<span class="lnr lnr-rocket"></span>
-									<h4><a href="#">Technical Skills</a></h4>
-								</div>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 ">
-							<div class="single-feature">
-								<div class="title d-flex flex-row pb-20">
-									<span class="lnr lnr-diamond"></span>
-									<h4><a href="#">Highly Recomended</a></h4>
-								</div>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 ">
-							<div class="single-feature">
-								<div class="title d-flex flex-row pb-20">
-									<span class="lnr lnr-bubble"></span>
-									<h4><a href="#">Positive Reviews</a></h4>
-								</div>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section> -->
-	<!-- End feature Area -->
-
+	
 	<!-- start contact Area -->
 	<section class="contact-area section-gap" id="contact">
 		<div class="container">
@@ -979,7 +737,6 @@
 
 			if (c == "latest") {
 				c = "";
-				console.log("x.length의값은 ? " + x.length);
 				projectRowDiv = $("#projects");
 				projectsDiv = projectRowDiv.children('.column').detach().get();
 				projectsDiv.sort(function(a, b) {
@@ -996,8 +753,6 @@
 				// 	if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
 				// }
 			}
-
-			console.log("c의값은? " + c);
 			if (c == "oldest") {
 				c = "";
 				projectRowDiv = $("#projects");
@@ -1020,9 +775,9 @@
 
 			}
 
-			if (c == "website") {
+			if (c == "webapplication") {
 				projectRowDiv = $("#projects");
-				projectsDiv = projectRowDiv.children('.website').detach().get();
+				projectsDiv = projectRowDiv.children('.webapplication').detach().get();
 
 
 				projectsDiv.sort(function(a, b) {
@@ -1070,11 +825,8 @@
 		}
 
 		function w3RemoveClass(element, name) {
-			console.log("element : " + element.innerHTML + " / name: " + name);
 			var i, arr1, arr2;
-			console.log("element : " + element + " / name : " + name);
 			arr1 = element.className.split(" ");
-			console.log("arr1 : " + arr1);
 			arr2 = name.split(" ");
 			for (i = 0; i < arr2.length; i++) {
 				while (arr1.indexOf(arr2[i]) > -1) {
@@ -1082,7 +834,6 @@
 				}
 			}
 			element.className = arr1.join(" ");
-			console.log("element.className : " + element.className);
 		}
 
 		// Add active class to the current button (highlight it)
